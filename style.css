@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(102, 94, 85);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(236, 151, 70)
+}
+
+.text{
+    color: rgb(187, 114, 84);
+    font-size: 20px;
+}
+.balls{
+    background-color: #49453d;
+    padding: 20px;
+    margin-top: 15px;
+    
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(166, 255, 0);
+    font-size: 18px;
+    display: inline;
+}
+
+.link:hover{
+    color: #666666;
+}
+
+
+.leftcolon{
+    float: left;
+    width: 75%;
+    
+}
+
+.rightcolon{
+    float: right;
+    width: 25%;
+    padding-left: 15px;
+}
+
+.pdf{
+    width: 800px;
+    height: 2100px;
+}
+
+.button {
+    background-color: rgb(150, 117, 56);
+    outline: none;
+    margin: .25em;
+    border-radius: 1em;
+    border: none;
+    cursor: pointer;
+    padding: .5em 1em;
+}
+
+.button:hover{
+    transition: 0.2s;
+    background-color: #cccccc;
+}
+
+.HeaderText{
+    font-size: 40px;
+    color: rgb(230, 201, 164);
+}
+
+.footer{
+    background-color: #49453d;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-links a {
+    color: #cea166;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links:hover{
+    color: #a3a3a3;
+
+}
+
